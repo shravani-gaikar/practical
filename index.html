@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mobile Website</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- jQuery Mobile JS -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            background: #f2f4f8;
+        }
+
+        .card {
+            background: #fff;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            color: #1e88e5;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HOME ================= -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>My Mobile Site</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h2>Welcome</h2>
+            <p>This is a simple mobile website built using jQuery Mobile framework.</p>
+
+            <h3>Navigation</h3>
+            <a href="#about" data-role="button">About Us</a>
+            <a href="#contact" data-role="button">Contact</a>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>© 2026 My Website</h4>
+    </div>
+
+</div>
+
+
+<!-- ================= ABOUT ================= -->
+<div data-role="page" id="about">
+
+    <div data-role="header">
+        <h1>About Us</h1>
+        <a href="#home" data-icon="home">Home</a>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h2>About</h2>
+            <p>We create mobile-friendly web applications using HTML, CSS, JavaScript and jQuery Mobile.</p>
+
+            <h3>Goal</h3>
+            <p>To build simple, responsive and user-friendly mobile applications.</p>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>About Page</h4>
+    </div>
+
+</div>
+
+
+<!-- ================= CONTACT ================= -->
+<div data-role="page" id="contact">
+
+    <div data-role="header">
+        <h1>Contact</h1>
+        <a href="#home" data-icon="home">Home</a>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h2>Contact Details</h2>
+            <p><b>Email:</b> example@gmail.com</p>
+            <p><b>Phone:</b> +91 9876543210</p>
+            <p><b>Location:</b> Pune, India</p>
+
+            <h3>Support</h3>
+            <p>Available Monday to Friday for assistance.</p>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>Contact Page</h4>
+    </div>
+
+</div>
+
+</body>
+</html>
